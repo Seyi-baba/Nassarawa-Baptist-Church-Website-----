@@ -23,6 +23,8 @@ body {
     margin-bottom: 10px;
 }
 
+
+
 /* Contact Section */
 .contact-container {
     display: flex;
@@ -81,7 +83,7 @@ body {
     height: 120px;
 }
 
-.contact-form button {
+ button {
     width: 100%;
     padding: 12px;
     border: none;
@@ -92,7 +94,23 @@ body {
     cursor: pointer;
 }
 
-.contact-form button:hover {
+ button:hover {
+    background-color: #1f4690;
+}
+
+ button {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2b5dad;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+ button:hover {
     background-color: #1f4690;
 }
 
